@@ -59,7 +59,7 @@ def main():
 
 model_filename = 'trained_model.pkl'
 model = load.model(model_filename)
-prediction = prediction_with_model(model, user_input)
+prediction = predict_with_model(model, user_input)
 st.write('The prediction output is: ', prediction)
 
 if __name__ == "__main__":
