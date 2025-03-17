@@ -6,7 +6,7 @@ def load_model(filename):
   return model
 
 def predict_with_model(model, user_input):
-  prediction = model.prediction(user_input)
+  prediction = model.prediction[(user_input)]
   return prediction[0]
 
 def main():
