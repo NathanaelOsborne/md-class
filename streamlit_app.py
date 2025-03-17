@@ -1,5 +1,7 @@
 import streamlit as st
 
-st.title('Dermatology Machine Learning')
+def main():
+  st.title('Dermatology Machine Learning')
+  st.write('This app using machine learning')
 
-st.write('Hello world!')
+if __name__(self, 
